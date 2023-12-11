@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.container1{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px 5px rgb(103, 160, 179);
+    }
+
+ .details{
+        padding: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between   ;
+}    
+    .details>h3{
+        font-size: 30px;
+ }   
+
+.nameinput{
+   font-size: medium;
+   padding: 1%;
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.emailinput{
+    font-size: medium;
+    padding: 1%;
+     border: none;
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.phoneinput{
+    font-size: medium;
+    padding: 1%;
+    border: none; 
+    border-bottom:1px solid black;
+}     
+
+.companyinput{
+    font-size: medium;
+    padding: 1%;
+    border: none;
+    border-bottom:1px solid black;
+}    
+
+
+
+.messageinput{
+    font-size: medium;
+    padding: 1%;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid black;}
+    input:focus {
+        outline: none;
+        border: none; 
+        border-bottom: 1px solid black; 
+        scale: 1.1;
+    }
+    
+    textarea{
+        border:none;
+    outline: none; 
+    border-bottom: 1px solid black;
+   }
+
+.btn{
+    background-color: #091dd1;
+    color: white;
+   width: 30%;
+    font-size: small;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:active{
+    scale: 0.8;
+
+}
+
+.contactinfo{
+    width: 35%;
+    background-color: #061970;
+    padding: 5%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.loremm p{
+    line-height: 30px;
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+}
+.secondline{
+    display: flex;
+    flex-direction: row;
+}
+.message{
+   justify-content: start;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+.loremm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
